@@ -1,0 +1,27 @@
+import random
+#  A is consumer!
+A = ['addu $k, $t0, $t1','ori $t1, $t0, Offset1','lw $t1,  Offset1($t0)','sw $t1, Offset1($t0)','lui $t1, Offset1','rotr $k, $t0, q']
+B = ['addu $@, $I, $j','ori $@, $I, Offset2','lw $@, Offset2($I)','lui $@,  Offset2','subu $@, $I, $j','rotr $@, $I, j']
+with open('text.txt','w') as fileHandle:	
+    for fuck in range(0,32):
+            fileHandle.write('ori ${}, $0, {}\n'.format(fuck, 4*fuck))
+    for a in A:
+            for b in B:
+                for string in ["t0", "t1"]:
+                    for m in range(0,3):
+                        i = random.randint(0,31)
+                        j = random.randint(0,31)
+                        k = random.randint(0,31)
+                        q = random.randint(0,31)
+                        Offset1 = random.randint(0,2**8) * 4
+                        Offset2 = random.randint(0,2**8) * 4
+                        fileHandle.write(b.replace('@', string).replace('I',str(i)).replace('j',str(j)).replace('Offset2',str(Offset2)))
+                        fileHandle.write("\n")
+                        for r in range(0,m):
+                            fileHandle.write("nop\n")
+
+                        fileHandle.write(a.replace('k',str(k)).replace("Offset1",str(Offset1)).replace("q",str(q)))
+                        fileHandle.write("\n")
+                        fileHandle.write("nop\nnop\nnop\n")
+
+        

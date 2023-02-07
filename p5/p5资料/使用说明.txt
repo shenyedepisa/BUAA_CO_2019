@@ -1,0 +1,33 @@
+AutoCodeGenerator & open.bat & aode.asm 从属于一套功能，使用时只需点击open.bat 即可改变生成的
+代码（目前只支持部分普通指令），生成的代码将存入code.asm。
+Mars1.jar为特殊mips编译器，支持单步调试与过程输出
+CCCodeGeneration.jar为特殊指令生成器，只支持部分特殊指令的单次生成。支持指令如下：
+/**
+			 * blezals $rs offset 
+			 * --------------- 
+			 * ***op:000011*** 
+			 * --------------- 
+			 * option: if $rs <= 0{
+			 *  PC = PC + 4 + sign_extend(offset||0^2) 
+			 *  } 
+			 *  $31 = PC + 8;
+			 */
+			/**
+			 * bgezalr $rs $rt $rd
+			 * ---------------
+			 * **op:111111****
+			 * **func:000000**
+			 * ---------------- option: if $rs >= 0{ PC = $rt } $rd = PC + 8
+			 */
+			/**
+			 * bptal $rs offset
+			 * ------------- 
+			 * *op:000001*** 
+			 * ------------- 
+			 * option: (如果GPR[rs] 是 2 的非负整数倍，则跳转到lable，并将PC+8存到31号寄存器 
+			 * if is_power_of_two(GPR[rs]) then
+			 * 		PC = PC + 4 + sign_extend(offset||0^2) 
+			 * 		GPR[31] = PC + 8
+			 * else 
+			 *  	PC = PC + 4;
+			 */
