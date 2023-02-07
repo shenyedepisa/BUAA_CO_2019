@@ -1,0 +1,5 @@
+set -tmpdir "D:/xilinx_ISE/code/xst/projnav.tmp"
+set -xsthdpdir "D:/xilinx_ISE/code/xst"
+elaborate
+-ifn code.prj
+-ifmt mixed

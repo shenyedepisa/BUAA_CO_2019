@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/xilinx_ISE/Alu/alu.xst" -ofn "D:/xilinx_ISE/Alu/alu.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/Alu/alu.xst" -ofn "D:/xilinx_ISE/Alu/alu.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/Alu/alu.xst" -ofn "D:/xilinx_ISE/Alu/alu.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/Alu/alu.xst" -ofn "D:/xilinx_ISE/Alu/alu.syr" 

@@ -1,0 +1,33 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/xilinx_ISE/String/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to D:/xilinx_ISE/String/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "string.v" in library work
+Compiling verilog file "String1.v" in library work
+Module <string> compiled
+ERROR:HDLCompilers:27 - "String1.v" line 21 Illegal redeclaration of 'string'
+Module <string> compiled
+Analysis of file <"String1.prj"> failed.
+--> 
+
+Total memory usage is 4477100 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

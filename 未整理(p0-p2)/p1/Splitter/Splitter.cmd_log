@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/xilinx_ISE/Splitter/Splitter.xst" -ofn "D:/xilinx_ISE/Splitter/Splitter.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/Splitter/splitter.xst" -ofn "D:/xilinx_ISE/Splitter/splitter.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim splitter.ngc splitter_synthesis.v 
+xst -intstyle ise -ifn "D:/xilinx_ISE/Splitter/splitter.xst" -ofn "D:/xilinx_ISE/Splitter/splitter.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/Splitter/splitter.xst" -ofn "D:/xilinx_ISE/Splitter/splitter.syr" 

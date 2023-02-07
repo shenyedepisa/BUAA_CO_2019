@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/xilinx_ISE/adder/adder_8.xst" -ofn "D:/xilinx_ISE/adder/adder_8.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/adder/adder_8.xst" -ofn "D:/xilinx_ISE/adder/adder_8.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/adder/adder_8.xst" -ofn "D:/xilinx_ISE/adder/adder_8.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/adder/adder_8.xst" -ofn "D:/xilinx_ISE/adder/adder_8.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/adder/adder_8.xst" -ofn "D:/xilinx_ISE/adder/adder_8.syr" 

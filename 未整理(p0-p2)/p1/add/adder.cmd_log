@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/xilinx_ISE/add/adder.xst" -ofn "D:/xilinx_ISE/add/adder.syr" 
+xst -intstyle ise -ifn "D:/xilinx_ISE/add/adder.xst" -ofn "D:/xilinx_ISE/add/adder.syr" 

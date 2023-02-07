@@ -1,0 +1,5 @@
+set -tmpdir "D:/xilinx_ISE/GRAY/xst/projnav.tmp"
+set -xsthdpdir "D:/xilinx_ISE/GRAY/xst"
+elaborate
+-ifn gray.prj
+-ifmt mixed

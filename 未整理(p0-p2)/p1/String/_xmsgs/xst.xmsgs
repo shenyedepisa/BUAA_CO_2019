@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="1464" delta="old" >&quot;<arg fmt="%s" index="1">string.v</arg>&quot; line <arg fmt="%d" index="2">35</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+</msg>
+
+<msg type="warning" file="Xst" num="1464" delta="old" >&quot;<arg fmt="%s" index="1">string.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+</msg>
+
+<msg type="warning" file="Xst" num="1464" delta="old" >&quot;<arg fmt="%s" index="1">string.v</arg>&quot; line <arg fmt="%d" index="2">50</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+</msg>
+
+<msg type="warning" file="Xst" num="1464" delta="old" >&quot;<arg fmt="%s" index="1">string.v</arg>&quot; line <arg fmt="%d" index="2">50</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+</msg>
+
+<msg type="warning" file="Xst" num="1464" delta="old" >&quot;<arg fmt="%s" index="1">string.v</arg>&quot; line <arg fmt="%d" index="2">61</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+</msg>
+
+<msg type="warning" file="Xst" num="1464" delta="old" >&quot;<arg fmt="%s" index="1">string.v</arg>&quot; line <arg fmt="%d" index="2">74</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+</msg>
+
+</messages>
+

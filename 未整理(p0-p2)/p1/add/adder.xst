@@ -1,0 +1,5 @@
+set -tmpdir "D:/xilinx_ISE/add/xst/projnav.tmp"
+set -xsthdpdir "D:/xilinx_ISE/add/xst"
+elaborate
+-ifn adder.prj
+-ifmt mixed

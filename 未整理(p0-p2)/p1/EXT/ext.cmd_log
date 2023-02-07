@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/xilinx_ISE/EXT/ext.xst" -ofn "D:/xilinx_ISE/EXT/ext.syr" 

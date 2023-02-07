@@ -1,0 +1,28 @@
+Command line:
+   uiytguyig_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64634
+
+Fri Nov 01 00:39:27 2019
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5163.9 Meg
+
+ Total Signals          : 17
+ Total Nets             : 24
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 117
+
+ Total Simulation Time: 8.0625 sec
+
+ Current Memory Usage: 5006.61 Meg
+
+Fri Nov 01 00:40:42 2019
+

@@ -1,0 +1,5 @@
+set -tmpdir "D:/xilinx_ISE/String/xst/projnav.tmp"
+set -xsthdpdir "D:/xilinx_ISE/String/xst"
+elaborate
+-ifn String1.prj
+-ifmt mixed
